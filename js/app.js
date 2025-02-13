@@ -31,7 +31,7 @@ function predict() {
 	// console.log(sex)
 	// console.log(smoke)
 				
-	if (Long.trim() != "" && parseFloat(Long) >= 1 && parseFloat(Long) <= 8) {
+	if (Long.trim() != "" && parseFloat(Long) >= 1 && parseFloat(Long) <= 10) {
 		input.push(parseFloat(Long))
 		input.push(parseFloat(texture))
 		input.push(parseFloat(Bubblelike_lucency))
