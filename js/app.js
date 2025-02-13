@@ -56,6 +56,6 @@ function predict() {
 			console.error('error:', error);
 		});
 	} else {
-		alert("Long-axis diameter input must be 1-8cm");
+		alert("Long-axis diameter input must be 1-10cm");
 	}
 }
